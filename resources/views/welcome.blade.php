@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Sistem Informasi Permintaan Barang</title>
+        <title></title>
+        <link rel="icon" href="{{url('assets/logo.png')}}" type="image/ico" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{asset('css/app.css')}}" rel="stylesheet">

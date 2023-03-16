@@ -6,6 +6,19 @@ $font-family-sans-serif: 'Nunito', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+$body-font-family: 'Bree Serif', sans-serif !default;
+
+.v-application {
+    [class*='text-'] {
+      font-family: $body-font-family, sans-serif !important;
+    }
+    font-family: $body-font-family, sans-serif !important;
+  }
+
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
 .colorsmm{
  color: rgba(1,25,61);
 }
@@ -14,4 +27,9 @@ $line-height-base: 1.6;
 }
 .v-text-field--outlined{
 margin-bottom: 0px;
+}
+
+
+.ck-editor__editable {
+    min-height: 200px !important;
 }

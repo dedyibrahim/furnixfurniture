@@ -1,23 +1,15 @@
 <template>
   <v-app >
 
-  <v-img
 
-
-      height="auto"
-      src="./assets/bg.jpg"
-    >
 
 <v-row>
    <v-col  class="   mx-auto col-md-4 offset-md-4 my-auto mt-15 ">
-    <v-card
-        elevation="3"
-           class=" mx-auto my-auto"
-        >
+
  <v-img
       class="white--text align-end"
       height="150px"
-      src="./assets/logo.jpg"
+      src="./assets/logo.png"
     ></v-img>
 
 <v-card-title>
@@ -61,10 +53,8 @@
         </v-row>
     </v-card-actions>
   </v-card-text>
-    </v-card>
    </v-col>
 </v-row>
-  </v-img>
   </v-app>
 </template>
 
