@@ -29,5 +29,5 @@ jobs:
       env:
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        REMOTE_PATH: '/api.furnixfurniture.co.id/'
+        REMOTE_PATH: '/api.furnixfurniture.co.id'
         FTP_HOST: ${{ secrets.FTP_SERVER }}
