@@ -15,4 +15,5 @@ cp .env.production .env
 # Menjalankan perintah Laravel lainnya sesuai kebutuhan
 
 # Upload ke server FTP
-lftp -u <furnixfu> , <Furnix@123> -e "mirror -R ./api.furnixfurniture.co.id ; quit" <ftp.furnixfurniture.co.id>
+lftp -u furnixfu,'Furnix@123' -e "mirror -R ./api.furnixfurniture.co.id ; quit" -p 21 ftp.furnixfurniture.co.id
+
