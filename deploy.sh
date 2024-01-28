@@ -20,5 +20,5 @@ if ! command -v lftp &> /dev/null; then
 fi
 
 # Upload ke server FTP
-lftp -u furnixfu,'Furnix@123' -e "mirror -R ./api.furnixfurniture.co.id/; quit" -p 21 ftp.furnixfurniture.co.id
+lftp -u furnixfu, Furnix@123 -e "mirror -R ../../api.furnixfurniture.co.id/; quit" -p 21 ftp.furnixfurniture.co.id
 
