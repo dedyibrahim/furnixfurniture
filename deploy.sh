@@ -10,7 +10,7 @@ composer install
 php artisan migrate
 
 # Menyalin file konfigurasi
-cp .env.example .env
+cp .env.production .env
 
 # Menjalankan perintah Laravel lainnya sesuai kebutuhan
 
