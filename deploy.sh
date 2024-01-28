@@ -7,7 +7,7 @@ git pull origin master
 composer install
 
 # Menjalankan migrasi database jika diperlukan
-php artisan migrate
+#php artisan migrate
 
 # Menyalin file konfigurasi
 cp .env. .env
